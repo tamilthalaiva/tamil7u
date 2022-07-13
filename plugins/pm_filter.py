@@ -753,7 +753,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('✅ JOINΞ  ✅', url='https://t.me/TamilRockers_FZN')
+            InlineKeyboardButton('✅ JOIN ✅', url='https://t.me/TamilRockers_FZN')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
