@@ -145,12 +145,12 @@ Helps you to know your ping 🚶🏼‍♂️
 
 <b>Commands:</b>
 
-• /alive - To check you are alive.
-• /help - To get help.
-• /ping - To get your ping.
-• /repo - Source Code.
-• /channel - Channel Details.
-• /ajax - Bot Link.
+• /start - To check i am alive or not😷.
+• /help - To get help😣.
+• /connect - To connect bot to pm.
+• /filter - Add a filter🥳.
+• /connection - Connection Details.
+• /leave - To leave the current chat🤕.
 <b>🏹Usage🏹 :</b>
 
 • This commands can be used in pms and groups
