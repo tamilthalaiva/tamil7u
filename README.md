@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/AJAX.png" alt="Ajax-Extra-FeaturesLogo">
+  <img src="assets/ANKIT PATEL.png" alt="Bot-Extra-FeaturesLogo">
 </p>
 <h1 align="center">
   <b>𝙱𝙾𝚃-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂</b>
@@ -111,5 +111,5 @@ python3 bot.py
 * /broadcast - to broadcast a message to all Ajax users
 ```
 
-<b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [ANKIT](https://telegram.dog/ankitpatel40) | [ɪɴsᴛᴀɢʀᴀᴍ](https://www.instagram.com/an_kit_patel_05/) | [ɢɪᴛʜᴜʙ](GitHub.com/Ankitpatel005)</b>                                                                                                                                                                                    
+<b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [ANKIT PATEL](https://telegram.dog/ankitpatel40) | [ɪɴsᴛᴀɢʀᴀᴍ](https://www.instagram.com/an_kit_patel_05/) | [ɢɪᴛʜᴜʙ](GitHub.com/Ankitpatel005)</b>                                                                                                                                                                                    
 <b>ᴄʜᴀɴɴᴇʟ ›› [APZ MOVIESERIES](https://t.me/+dIqadY-y3vYzNzJl)</b>
