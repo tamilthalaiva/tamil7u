@@ -761,15 +761,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply1 = await query.message.reply_text(
             text="▢▢▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply2 = await reply1.edit_text(
             text="▣▢▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply3 = await reply2.edit_text(
             text="▣▣▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply4 = await reply3.edit_text(
             text="▣▣▣"
         )
@@ -807,15 +807,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply1 = await query.message.reply_text(
             text="▢▢▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply2 = await reply1.edit_text(
             text="▣▢▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply3 = await reply2.edit_text(
             text="▣▣▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply4 = await reply3.edit_text(
             text="▣▣▣"
         )
@@ -871,15 +871,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply1 = await query.message.reply_text(
             text="▢▢▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply2 = await reply1.edit_text(
             text="▣▢▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply3 = await reply2.edit_text(
             text="▣▣▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply4 = await reply3.edit_text(
             text="▣▣▣"
         )
@@ -928,22 +928,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
-            InlineKeyboardButton('DONATE 🤩', callback_data='donate')
+            InlineKeyboardButton('𝙳𝙾𝙽𝙰𝚃𝙴 🤩', callback_data='donate'),
+            InlineKeyboardButton('𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽 🤩', callback_data='donate')
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
         ]]
         reply1 = await query.message.reply_text(
             text="▢▢▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply2 = await reply1.edit_text(
             text="▣▢▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply3 = await reply2.edit_text(
             text="▣▣▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply4 = await reply3.edit_text(
             text="▣▣▣"
         )
@@ -965,15 +966,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply1 = await query.message.reply_text(
             text="▢▢▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply2 = await reply1.edit_text(
             text="▣▢▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply3 = await reply2.edit_text(
             text="▣▣▢"
         )
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(0.1)
         reply4 = await reply3.edit_text(
             text="▣▣▣"
         )
