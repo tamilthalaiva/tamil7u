@@ -756,7 +756,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl'),
-            InlineKeyboardButton('♻️ DOИΛTΞ ♻️', callback_data='donate')
+            InlineKeyboardButton('♻️ DOИΛTΞ ♻️', callback_data='doonate')
         ]]
         reply1 = await query.message.reply_text(
             text="▢▢▢"
@@ -864,7 +864,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
-            InlineKeyboardButton('DONATE 🤩', callback_data='donate'),
+            InlineKeyboardButton('DONATE 🤩', callback_data='doonate'),
             InlineKeyboardButton('𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽 🤩', callback_data='promotion')
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
@@ -929,7 +929,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
-            InlineKeyboardButton('𝙳𝙾𝙽𝙰𝚃𝙴 🤩', callback_data='donate'),
+            InlineKeyboardButton('𝙳𝙾𝙽𝙰𝚃𝙴 🤩', callback_data='doonate'),
             InlineKeyboardButton('𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽 🤩', callback_data='promotion')
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
@@ -997,7 +997,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "donate":
+    elif query.data == "doonate":
         buttons = [[
             InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='help')
         ]]
