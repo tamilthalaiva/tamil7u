@@ -48,6 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl')
+            InlineKeyboardButton('♻️ DOИΛTΞ ♻️', callback_data='donate')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -91,6 +92,7 @@ async def start(client, message):
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/TamilRockers_FZN')
+            InlineKeyboardButton('♻️ DOИΛTΞ ♻️', callback_data='donate')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
