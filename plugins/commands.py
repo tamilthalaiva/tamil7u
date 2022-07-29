@@ -48,10 +48,11 @@ async def start(client, message):
             InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+KeVwnybSzkphZmRl')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
+            InlineKeyboardButton('🔍 SΞΛᏒCH', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl'),
-            InlineKeyboardButton('♻️ DOИΛTΞ ♻️', callback_data='doonate')
+            InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -92,10 +93,11 @@ async def start(client, message):
             InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+YLdUTLqM5p5jNjY1')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
+            InlineKeyboardButton('🔍 SΞΛᏒCH', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/TamilRockers_FZN'),
-            InlineKeyboardButton('♻️ DOИΛTΞ ♻️', callback_data='doonate')
+            InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
