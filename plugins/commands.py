@@ -89,14 +89,14 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/TamilRockers_FZN'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+YLdUTLqM5p5jNjY1')
+            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+dIqadY-y3vYzNzJl'),
+            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+KeVwnybSzkphZmRl')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
             InlineKeyboardButton('🔍 SΞΛᏒCH', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/TamilRockers_FZN'),
+            InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl'),
             InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
