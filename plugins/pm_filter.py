@@ -753,10 +753,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+KeVwnybSzkphZmRl')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
+            InlineKeyboardButton('🔍 SΞΛᏒCH', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl'),
-            InlineKeyboardButton('♻️ DOИΛTΞ ♻️', callback_data='doonate')
+            InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate')
         ]]
         reply1 = await query.message.reply_text(
             text="▢▢▢"
@@ -864,8 +865,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
-            InlineKeyboardButton('DONATE 🤩', callback_data='donate'),
-            InlineKeyboardButton('𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽 😎', callback_data='promotion')
+            InlineKeyboardButton('𝙳𝙾𝙽𝙰𝚃𝙴 🤩', callback_data='donate'),
+            InlineKeyboardButton('𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽 💫😎', callback_data='promotion')
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
         ]]
@@ -929,8 +930,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
             ],[
-            InlineKeyboardButton('𝙳𝙾𝙽𝙰𝚃𝙴 🤩', callback_data='donate'),
-            InlineKeyboardButton('𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽 😎', callback_data='promotion')
+            InlineKeyboardButton('𝙳𝙾𝙽𝙰𝚃𝙴 😍', callback_data='donate'),
+            InlineKeyboardButton('𝙿𝚁𝙾𝙼𝙾𝚃𝙸𝙾𝙽 💫😎', callback_data='promotion')
             ],[
             InlineKeyboardButton('⚚ 𝙱𝙰𝙲𝙺 ⚚', callback_data='start')
         ]]
