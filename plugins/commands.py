@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('𝙿𝚁𝙸𝚅𝙰𝚃𝙴 𝙱𝙾𝚃', url=f"https://t.me/Ankitpatel40")
             ],
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('HΞLᎮ 😖', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -55,8 +55,8 @@ async def start(client, message):
             InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
-        await message.reply_photo(
-            photo=random.choice(PICS),
+        await message.reply_video(
+            video=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -100,8 +100,8 @@ async def start(client, message):
             InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_photo(
-            photo=random.choice(PICS),
+        await message.reply_video(
+            video=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
