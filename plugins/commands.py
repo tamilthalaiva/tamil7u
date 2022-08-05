@@ -51,8 +51,10 @@ async def start(client, message):
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
             InlineKeyboardButton('🔍 SΞΛᏒCH', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl'),
-            InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate')
+            InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate'),
+            InlineKeyboardButton('💫 ᎮᏒOMOTIOИ 💫', callback_data='proomotion')
+            ],[
+            InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_video(
@@ -96,8 +98,10 @@ async def start(client, message):
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
             InlineKeyboardButton('🔍 SΞΛᏒCH', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl'),
-            InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate')
+            InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate'),
+            InlineKeyboardButton('💫 ᎮᏒOMOTIOИ 💫', callback_data='proomotion')
+            ],[
+            InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
