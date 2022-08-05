@@ -756,8 +756,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about'),
             InlineKeyboardButton('🔍 SΞΛᏒCH', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl'),
-            InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate')
+            InlineKeyboardButton('💫 DOИΛTΞ 💫', callback_data='doonate'),
+            InlineKeyboardButton('💫 ᎮᏒOMOTIOИ 💫', callback_data='proomotion'),
+            ],[
+            InlineKeyboardButton('✅ 🇯‌🇴‌🇮‌🇳 ✅', url='https://t.me/+UAPWlbyITcdmOTZl')
         ]]
         reply1 = await query.message.reply_text(
             text="▢▢▢"
@@ -995,6 +997,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.RESTRIC_TXT,
             disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "proomotion":
+        buttons = [[
+            InlineKeyboardButton('🚶 𝗕𝗮𝗰𝗸 🚶', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.PROMOTION_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
