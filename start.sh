@@ -4,9 +4,9 @@ then
   git clone https://github.com/Aadhi000/Ajax.git /Ajax
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Ajax
+  git clone $UPSTREAM_REPO /Ankit
 fi
-cd /Ajax
+cd /APZ
 pip3 install -U -r requirements.txt
-echo "Starting ANKIT....🔥"
+echo "Starting APZ....🔥"
 python3 bot.py
