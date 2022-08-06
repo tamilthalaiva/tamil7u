@@ -9,11 +9,11 @@
   <img src="https://img.shields.io/badge/𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴-black?logo=youtube" width="150">
 
 
-[![Stars](https://img.shields.io/github/stars/Aadhi000/Ajax-Extra-Features?style=flat-square&color=green)](https://github.com/Aadhi000/Ajax-Extra-Features/stargazers)
-[![Forks](https://img.shields.io/github/forks/Aadhi000/Ajax-Extra-Features?style=flat-square&color=blue)](https://github.com/Aadhi000/Ajax-Extra-Features/fork)
-[![Size](https://img.shields.io/github/repo-size/Aadhi000/Ajax-Extra-Features?style=flat-square&color=red)](https://github.com/Aadhi000/Ajax-Extra-Features)   
-[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Ankitpatel005/Ajax-Extra-Features)   
-[![Contributors](https://img.shields.io/github/contributors/Aadhi000/Ajax-Extra-Features?style=flat-square&color=green)](https://github.com/Aadhi000/Ajax-Extra-Features/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/ankitpatel005/auto-filter-bot-repo?style=flat-square&color=green)](https://github.com/ankitpatel005/auto-filter-bot-repo/stargazers)
+[![Forks](https://img.shields.io/github/forks/ankitpatel005/auto-filter-bot-repo?style=flat-square&color=blue)](https://github.com/ankitpatel005/auto-filter-bot-repo/fork)
+[![Size](https://img.shields.io/github/repo-size/ankitpatel005/auto-filter-bot-repo?style=flat-square&color=red)](https://github.com/ankitpatel005/auto-filter-bot-repo)   
+[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Ankitpatel005/auto-filter-bot-repo)   
+[![Contributors](https://img.shields.io/github/contributors/ankitpatel005/auto-filter-bot-repo?style=flat-square&color=green)](https://github.com/ankitpatel005/auto-filter-bot-repo/graphs/contributors)
 ## Features
 
 - [x] Auto Filter
