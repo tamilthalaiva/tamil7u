@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Ankit
 fi
-cd /APZ
+cd /AJAX
 pip3 install -U -r requirements.txt
 echo "Starting APZ....🔥"
 python3 bot.py
