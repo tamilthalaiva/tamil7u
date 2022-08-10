@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/ANKIT.png" alt="Bot-Extra-FeaturesLogo">
+  <img src="assets/Ajax.png" alt="Bot-Extra-FeaturesLogo">
 </p>
 <h1 align="center">
   <b>𝙱𝙾𝚃-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂</b>
@@ -49,7 +49,7 @@
 * `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com).
 * `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this 
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
-* `SUPPORT_CHAT` : @MWUpdatez
+* `SUPPORT_CHAT` : @apzentertainmentbackup
 * `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
 ### Optional Variables
 
