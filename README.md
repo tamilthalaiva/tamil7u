@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/ajax.png" alt="Bot-Extra-FeaturesLogo">
+  <img src="assets/APZ.png" alt="Bot-Extra-FeaturesLogo">
 </p>
 <h1 align="center">
   <b>𝙱𝙾𝚃-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂</b>
