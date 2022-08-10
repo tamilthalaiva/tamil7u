@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/ankitpatel005/auto-filter-bot-repo",
-    "repository": "https://github.com/ankitpatel005/auto-filter-bot-repo",
+    "website": "https://github.com/ankitpatel005/APZ-EXTRA-FEATURES",
+    "repository": "https://github.com/ankitpatel005/APZ-EXTRA-FEATURES",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
