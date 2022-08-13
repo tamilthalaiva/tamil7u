@@ -9,11 +9,11 @@
   <img src="https://img.shields.io/badge/𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴-black?logo=youtube" width="150">
 
 
-[![Stars](https://img.shields.io/github/stars/ankitpatel005/auto-filter-bot-repo?style=flat-square&color=green)](https://github.com/ankitpatel005/auto-filter-bot-repo/stargazers)
-[![Forks](https://img.shields.io/github/forks/ankitpatel005/auto-filter-bot-repo?style=flat-square&color=blue)](https://github.com/ankitpatel005/auto-filter-bot-repo/fork)
-[![Size](https://img.shields.io/github/repo-size/ankitpatel005/auto-filter-bot-repo?style=flat-square&color=red)](https://github.com/ankitpatel005/auto-filter-bot-repo)   
-[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Ankitpatel005/auto-filter-bot-repo)   
-[![Contributors](https://img.shields.io/github/contributors/ankitpatel005/auto-filter-bot-repo?style=flat-square&color=green)](https://github.com/ankitpatel005/auto-filter-bot-repo/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/ankitpatel005/auto-APZ-EXTRA-FEATURES?style=flat-square&color=green)](https://github.com/ankitpatel005/APZ-EXTRA-FEATURES/stargazers)
+[![Forks](https://img.shields.io/github/forks/ankitpatel005/auto-APZ-EXTRA-FEATURES?style=flat-square&color=blue)](https://github.com/ankitpatel005/APZ-EXTRA-FEATURES/fork)
+[![Size](https://img.shields.io/github/repo-size/ankitpatel005/APZ-EXTRA-FEATURES?style=flat-square&color=red)](https://github.com/ankitpatel005/APZ-EXTRA-FEATURES)   
+[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Ankitpatel005/APZ-EXTRA-FEATURES)   
+[![Contributors](https://img.shields.io/github/contributors/ankitpatel005/APZ-EXTRA-FEATURES?style=flat-square&color=green)](https://github.com/ankitpatel005/APZ-EXTRA-FEATURES/graphs/contributors)
 ## Features
 
 - [x] Auto Filter
@@ -72,7 +72,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Aadhi000/Ajax-Extra-Features
+git clone https://github.com/Aadhi000/APZ-EXTRA-FEATURES
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
