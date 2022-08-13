@@ -151,7 +151,7 @@ async def give_filter(client,message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("😁 𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱,𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳. /n/n😁हेलो दोस्त, कृपया खुद से सर्च करें!!!", show_alert=True)
+        return await query.answer("😁 𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱,𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳..../n/n😁हेलो दोस्त, कृपया खुद से सर्च करें!!!", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -232,7 +232,7 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("😁 𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱,𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳. /n/n😁हेलो दोस्त, कृपया खुद से सर्च करें!!!", show_alert=True)
+        return await query.answer("😁 𝗛𝗲𝘆 𝗙𝗿𝗶𝗲𝗻𝗱,𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳..../n/n😁हेलो दोस्त, कृपया खुद से सर्च करें!!!", show_alert=True)
     if movie_ == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.message_id)
@@ -1584,8 +1584,8 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist))  # removing duplicates
     if not movielist:
-        k = await msg.reply(f"<b>Hey, {msg.from_user.mention}...💫❣️\n\nᴄʜᴇᴄᴋ ᴀɴᴅ sᴇʟᴇᴄᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғʀᴏᴍ ᴛʜᴇ ɢɪᴠᴇɴ ʟɪsᴛ.. \n\nदी गई सूची में अपनी फिल्म देखें और अपनी फिल्म चुनें</b>👇👇👇")
-        await asyncio.sleep(8)
+        k = await msg.reply(f"<b>Hey, {msg.from_user.mention}...💫❣️\n\n【｡_｡】 ɪ ᴄᴏᴜʟᴅɴ'ᴛ ғɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜᴀᴛ ᴘʟᴇᴀsᴇ ᴄᴏʀʀᴇᴄᴛ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ᴀɴᴅ sᴇᴀʀᴄʜ ᴀɢᴀɪɴ 【｡_｡】😢.. \n\n【｡_｡】 मुझे इससे संबंधित कुछ भी नहीं मिला कृपया अपनी वर्तनी सुधारें और फिर से खोजें 【｡_｡】</b>😢")
+        await asyncio.sleep(15)
         await k.delete()
         return
     SPELL_CHECK[msg.message_id] = movielist
