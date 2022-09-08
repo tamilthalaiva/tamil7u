@@ -66,7 +66,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**𝙹𝙾𝙸𝙽 ›› [𝙰𝙿𝚉 𝙱𝙰𝙲𝙺𝚄𝙿](https://t.me/+KeVwnybSzkphZmRl)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [𝙰𝙿𝚉 𝙼𝚄𝚂𝙸𝙲](https://t.me/APZMUSIC_Bot)**'
+        rep = '**𝙹𝙾𝙸𝙽 ›› [𝙰𝙿𝚉 𝙱𝙰𝙲𝙺𝚄𝙿](https://t.me/+KeVwnybSzkphZmRl)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [𝙰𝙿𝚉 𝙼𝚄𝚂𝙸𝙲](https://t.me/APZMUSIC_Bot)\n**𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙱𝚈 :**{message.from_user.mention}**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
