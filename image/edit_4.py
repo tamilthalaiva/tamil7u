@@ -17,7 +17,7 @@ async def rotate_90(client, message):
         edit_img_loc = "./DOWNLOADS" + "/" + userid + "/" + "rotate_90.jpg"
         if not message.reply_to_message.empty:
             msg = await message.reply_to_message.reply_text(
-                "<b>𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙸𝙼𝙰𝙶𝙴....</b>", quote=True
+                "<b>𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙸𝙼𝙰𝙶𝙴 😎....</b>", quote=True
             )
             a = await client.download_media(
                 message=message.reply_to_message, file_name=download_location
